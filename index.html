@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>アルコールチェック記録 Ver.23</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>アルコールチェック記録 Ver.25</title><style>
 :root{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#16263b;background:#f3f6fa}*{box-sizing:border-box}body{margin:0}header{background:#16385b;color:white;padding:17px 16px}header b{font-size:19px}header small{display:block;opacity:.85;margin-top:5px}.wrap{max-width:850px;margin:auto;padding:14px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}button{border:0;border-radius:10px;padding:12px 14px;font:inherit;font-weight:650;cursor:pointer;background:#1e5e9a;color:white}button.alt{background:white;color:#214a73;border:1px solid #bbcfdf}button.warn{background:#fff2ed;color:#a33d22;border:1px solid #efc0b1}button.active{background:#16385b;color:white}.card{border:1px solid #d7e2ec;background:white;border-radius:15px;padding:16px;margin-bottom:14px;box-shadow:0 2px 8px #1836530b}h2{font-size:18px;margin:0 0 15px}h3{font-size:16px;margin:14px 0 10px}label{display:block;color:#4a6076;font-size:13px;font-weight:650;margin-bottom:5px}input,select{width:100%;padding:11px;border:1px solid #c4d3e0;border-radius:9px;background:white;color:#16263b;font:inherit;min-height:43px;min-width:0;max-width:100%}.textLike{letter-spacing:.02em}.hintMini{font-size:12px;color:#7a8a99;margin-top:4px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.grid>.field,.grid3>.field{min-width:0;max-width:100%}.grid input,.grid select,.grid3 input,.grid3 select{display:block;box-sizing:border-box;min-width:0;max-width:100%;width:100%}.field{min-width:0}.grid3 input,.grid3 select{display:block;box-sizing:border-box;min-width:0;width:100%;max-width:100%;font-size:16px}.grid3 input[type="time"]{width:calc(100% - 32px)!important;max-width:calc(100% - 32px)!important;min-width:0!important;margin-right:32px!important;display:block;-webkit-appearance:none;appearance:none}.grid input[type="time"]{width:calc(100% - 24px)!important;max-width:calc(100% - 24px)!important;margin-right:24px!important}.extraChecks{border-top:1px solid #d5e2eb;padding:9px 0 2px;margin:10px 0 15px}.extraChecks summary{cursor:pointer;color:#214a73;font-weight:650;font-size:14px}.extraChecks .grid{margin-top:12px}.field{margin-bottom:11px}.row{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.row>*{flex-shrink:0}.muted{color:#63758a;font-size:13px;line-height:1.7}.pill{display:inline-block;padding:4px 9px;background:#edf4fc;color:#25527b;border-radius:8px;font-size:12px}#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#16385b;color:white;padding:10px 16px;border-radius:9px;display:none;z-index:50}.person{border:1px solid #d4e2ee;border-radius:13px;padding:13px;margin:12px 0}.personTitle{display:flex;align-items:center;justify-content:space-between;gap:8px}.check{display:flex;align-items:center;gap:8px;font-size:14px;padding:9px 0}.check input{width:20px;min-height:20px}.hide{display:none!important}.note{border-left:3px solid #d99b3d;padding:8px 10px;background:#fff8e9;font-size:13px;line-height:1.7;margin-top:10px}#printArea{display:none}#screenPreview{display:none;margin-top:14px;background:#eef3f8;border:1px solid #d7e2ec;border-radius:14px;padding:12px;overflow:auto}.previewTitle{font-weight:700;margin:0 0 10px;color:#214a73}.previewPaper{background:white;box-shadow:0 2px 12px rgba(0,0,0,.08);padding:8mm;width:281mm;max-width:none;min-height:194mm;margin:0 auto 14px;border:1px solid #d9e1e8}.previewHint{font-size:13px;color:#63758a;margin:0 0 10px}@media(max-width:650px){.grid3{grid-template-columns:minmax(0,1fr)}.grid{grid-template-columns:minmax(0,1fr)}.wrap{padding:10px}.card{padding:13px}.nav button{flex:1}}
 @page{size:A4 landscape;margin:8mm}@media print{body{background:white;color:black}header,.wrap,#toast{display:none!important}#printArea{display:block!important}.printPage{break-after:page;page-break-after:always;width:100%;font-family:'Yu Mincho','Hiragino Mincho ProN',serif;font-size:10px}.printPage:last-child{break-after:auto;page-break-after:auto}.ptitle{text-align:center;font-size:17px;margin:0 0 14px;font-weight:bold}.phead{display:flex;justify-content:space-between;margin-bottom:9px}.pmeta{font-size:12px;margin:12px 0 6px;border-bottom:1px solid #111;padding-bottom:5px}.pgrid{border-collapse:collapse;table-layout:fixed;width:100%;font-size:9px}.pgrid th,.pgrid td{border:1px solid #000;text-align:center;vertical-align:middle;padding:5px 2px;overflow-wrap:anywhere}.pgrid th{background:#f5f5f5;font-weight:bold}.pgrid .n{width:16%}.pgrid .t{width:11%}.pgrid .m{width:13%}.pgrid .v{width:12%}.pgrid .s{width:10%}.pgrid .e{width:14%}.pgrid .c{width:12%}.signs{display:flex;justify-content:flex-end;margin:8px 0 12px;gap:0}.signs>div{border:1px solid #000;height:64px;width:65px;text-align:center;font-size:8px;padding:4px}.foot{font-size:9px;margin-top:10px}}
 @media print{.printPage{width:100%;max-width:100%;font-size:10px}.ptitle{font-size:16px;margin:0 0 8px}.phead{margin-bottom:4px}.pmeta{margin:7px 0 5px}.signs{margin:2px 0 6px}.signs>div{height:45px}.pgrid th,.pgrid td{padding:4px 2px}.foot{margin-top:6px}}
@@ -43,9 +43,15 @@ body.recordActive{padding-bottom:95px}
 .quickSheet{position:fixed;left:50%;bottom:calc(10px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(94vw,470px);max-height:85dvh;overflow-y:auto;border-radius:17px;background:white;z-index:80;box-shadow:0 14px 44px #142b4650;padding:17px}
 .quickSheet h2{margin:0 0 10px}.quickSheet .grid{gap:8px}.quickSheet button{font-size:15px}
 .quickSheet .sheetHint{font-size:12px;color:#53697c;line-height:1.5;margin:6px 0 13px}
+/* iPad on-screen keyboard can cover bottom-fixed dialogs: keep action in the visible viewport. */
+.quickSheet.keyboardVisible{top:calc(var(--visible-top,0px) + 8px);bottom:auto;max-height:calc(var(--visible-height,100dvh) - 16px);overscroll-behavior:contain}
+.quickSheet .quickAddConfirm{position:sticky;bottom:0;z-index:2;box-shadow:0 -8px 16px white;background:#1e5e9a;min-height:48px}
+.quickSheet .quickTopConfirm{width:100%;position:sticky;top:0;z-index:4;min-height:44px;margin:0 0 10px;background:#1e5e9a;box-shadow:0 4px 8px #15375920}
+.quickSheet{scroll-padding-bottom:85px}
+@supports (height:100dvh){.quickSheet{max-height:calc(100dvh - 22px)}}
 .calendarPanel.asOverlay{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:min(94vw,460px);max-width:unset;max-height:83dvh;overflow-y:auto;z-index:82;margin:0;background:white;box-shadow:0 12px 40px #15283d55}
 @media print{.quickDock,.quickBackdrop,.quickSheet{display:none!important}}
-.moveNext{margin-top:5px;padding:5px 9px!important;font-size:12px!important;min-height:30px}.field .moveNext{width:auto!important}</style></head><body><header><b>🚙 アルコールチェック記録</b><small>iPhone・iPad対応 / 原本様式 Ver.24 / 記録はこの端末内に保存（試用版）</small></header><main class="wrap"><div class="nav"><button id="tabRecord" onclick="showTab('record')">今日の記録</button><button id="tabMonthly" class="alt" onclick="showTab('monthly')">月末のPDF</button><button id="tabSettings" class="alt" onclick="showTab('settings')">初期設定</button></div>
+.moveNext{margin-top:5px;padding:5px 9px!important;font-size:12px!important;min-height:30px}.field .moveNext{width:auto!important}</style></head><body><header><b>🚙 アルコールチェック記録</b><small>iPhone・iPad対応 / 原本様式 Ver.25 / 記録はこの端末内に保存（試用版）</small></header><main class="wrap"><div class="nav"><button id="tabRecord" onclick="showTab('record')">今日の記録</button><button id="tabMonthly" class="alt" onclick="showTab('monthly')">月末のPDF</button><button id="tabSettings" class="alt" onclick="showTab('settings')">初期設定</button></div>
 <section id="record"><div class="card"><h2>記録日と天候</h2><div class="grid dateSite"><div class="field"><label>日付</label><input type="text" inputmode="numeric" class="textLike" id="date" placeholder="2026-11-08" onchange="normalizeDateField();loadDay();refreshDateCalendar()"><div class="calendarActions"><button type="button" class="alt" id="calendarToggle" aria-expanded="false" aria-controls="calendarPanel" onclick="toggleDateCalendar()">📅 カレンダーから選ぶ</button><span id="dateWeekday" aria-live="polite"></span></div><div id="calendarPanel" class="calendarPanel hide"><div class="calendarHeader"><button type="button" class="alt" onclick="moveCalendarMonth(-1)" aria-label="前の月">‹</button><strong id="calendarMonthTitle"></strong><button type="button" class="alt" onclick="moveCalendarMonth(1)" aria-label="次の月">›</button></div><div id="calendarGrid" class="calendarGrid" role="group" aria-label="日付を選択"></div><div class="calendarActions"><button type="button" class="alt" onclick="chooseCalendarDate(isoLocal())">今日を選ぶ</button><button type="button" class="alt" onclick="toggleDateCalendar(false)">閉じる</button></div><div class="calendarLegend" id="calendarLegend">月〜日で表示。緑色は保存済みの日です。</div>
 <div class="calendarManageBar"><button type="button" class="alt" id="bulkModeButton" onclick="toggleBulkDeleteMode()">🗑 カレンダーでまとめて削除</button><button type="button" class="alt hide" id="bulkCancelButton" onclick="toggleBulkDeleteMode(false)">選択をやめる</button><button type="button" class="alt hide" id="bulkSelectMonthButton" onclick="selectRecordedMonth()">この月の記録をすべて選択</button><button type="button" class="alt hide" id="bulkBackupButton" onclick="exportBackup()">先にバックアップを保存</button><span class="calendarBulkText hide" id="bulkSelectionCount" aria-live="polite">0日選択中</span><button type="button" class="warn hide" id="bulkDeleteButton" disabled onclick="deleteSelectedDays()">選択した記録を削除</button></div></div><div class="hintMini">日付は直接入力することもできます（例：2026-11-08）。</div></div><div class="field"><label>現場名（任意）</label><input id="site" placeholder="例：現場No.1" oninput="scheduleSave()"></div></div><div class="grid"><div class="field"><label>天候</label><select id="weather" onchange="scheduleSave()"><option value="">未選択</option><option>晴れ</option><option>くもり</option><option>雨</option><option>雪</option><option>その他</option></select></div><div class="field"><label>現在地の天気</label><button class="alt" style="width:100%" onclick="getWeather()">📍 天候を自動取得</button></div></div><div class="muted" id="weatherMsg">位置情報を許可すると現在地付近の天候を取得できます。実際の現場と異なれば手動で変更してください。</div></div><div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">運転者・車両</h2><button class="alt" onclick="addPerson()">＋運転者を追加</button></div><p class="muted" id="carryoverInfo" aria-live="polite">新しい日付には、前回の運転者名と車両番号を自動表示します。実際の担当者と車両を確認してから記録してください。</p><div class="muted">運転前・運転後の新規入力は「検知器の使用：有」「状態：良」「酒気帯び：無」と初期表示します。これは確認結果ではありません。毎回、実際に検知・確認してから記録を確定し、異なる場合は必ず変更してください。</div><div id="persons"></div><div class="row"><button onclick="saveDay()">この日の記録を保存</button><button class="warn" onclick="deleteDay()">この日の記録を削除</button></div><div class="note">測定値 0.00、検知器使用「有」、状態「良」、酒気帯び「無」は未確認でも初期表示されます。運転前・運転後それぞれ、実際に確認した内容のみ正式な記録として使用してください。</div></div></section>
 <section id="monthly" class="hide"><div class="card"><h2>月末のPDF出力</h2><div class="field"><label>対象月</label><input type="text" inputmode="numeric" id="month" placeholder="2026-11" onchange="renderMonthly()"></div><p class="muted">記録を保存した日だけを、日付順に1日1ページで出力します。休日は自動で除外されます（記録がある休日は出力対象です）。</p><div id="monthList"></div><div class="row"><button class="alt" onclick="previewMonth()">印刷イメージを表示</button><button onclick="openPrintPage()">📄 PDF保存・メール送信用の画面を開く</button><button class="alt" onclick="exportBackup()">全記録をバックアップ</button></div><div class="note"><b>PDFで部長に送る方法（iPad）</b>：上の「PDF保存・メール送信用の画面を開く」→ 開いた画面で「印刷する」またはブラウザの共有から「プリント」→ 印刷プレビューを2本指で広げる → 共有（□↑）から「ファイルに保存」または「メール」。A4横向き・保存した日だけ1日1ページです。<b>HTMLファイルではなくPDFを送ってください。</b></div><details class="muted"><summary>補助：印刷用HTMLを保存（通常は不要）</summary><button class="alt" onclick="exportPrintHtml()">印刷用HTMLを保存</button></details><div id="screenPreview"></div><p class="muted">会社名と確認者は「初期設定」で登録してください。酒気帯びの有無などは運転者ごとの「検知器の状態・酒気帯び等の記録」から、実際の確認結果を入力します。</p><p class="muted">「PDF保存・メール送信用の画面を開く」で印刷用の画面を表示します。iPadでは「プリント」のプレビューから共有してPDF保存・メール送信できます。HTMLのダウンロードは通常不要です。A4横向きで出力します。現段階は会社のExcelひな形に近づけた試作レイアウトです。会社の原本と完全一致する版ではありません。</p></div></section>
@@ -54,9 +60,10 @@ body.recordActive{padding-bottom:95px}
 <div id="quickSheet" class="quickSheet hide" role="dialog" aria-modal="true" aria-label="運転者と車両を追加">
  <div class="row" style="justify-content:space-between"><h2>運転者・車両を追加</h2><button type="button" class="alt" onclick="closeFloatingTools()">閉じる ×</button></div>
  <div class="sheetHint">今開いている日付に追加します。入力中の場所を移動する必要はありません。</div>
+ <button type="button" class="quickTopConfirm" onclick="commitQuickAdd()">✓ この日に追加（上からも操作）</button>
  <label for="quickPreset">登録済みの組み合わせ（任意）</label><select id="quickPreset" onchange="chooseQuickPreset()"><option value="">手入力する</option></select>
  <div class="grid" style="margin-top:11px"><div class="field"><label for="quickName">運転者名</label><input id="quickName" tabindex="0" autocomplete="off" placeholder="運転者名" aria-label="運転者名"><button type="button" class="alt moveNext" onclick="focusPlate('quick')">車両番号へ →</button></div><div class="field"><label for="quickPlate">車両番号</label><input id="quickPlate" tabindex="0" autocomplete="off" placeholder="車両番号" aria-label="車両番号"></div></div>
- <div class="sheetHint">Magic Keyboard：Tab（またはEnter）で次の欄に移動を試せます。iPadで動かない場合は「車両番号へ →」を押してください。</div><button type="button" style="width:100%" onclick="commitQuickAdd()">この日の記録に追加</button>
+ <div class="sheetHint">Magic Keyboard：Tab（またはEnter）で次の欄に移動を試せます。iPadで動かない場合は「車両番号へ →」を押してください。</div><button type="button" class="quickAddConfirm" style="width:100%" onclick="commitQuickAdd()">✓ この日の記録に追加</button>
  <p class="sheetHint">追加後もここから続けて登録できます。測定値などは初期表示ですので、実測・確認してください。</p>
 </div>
 <div id="toast"></div><div id="printArea"></div><script>
@@ -226,7 +233,7 @@ function quickPrintPdf(){
 }
 // Quick tools are separate from the saved record schema; existing browser records stay intact.
 function closeFloatingTools(){
-  document.getElementById('quickSheet').classList.add('hide');
+  document.getElementById('quickSheet').classList.add('hide');document.getElementById('quickSheet').classList.remove('keyboardVisible');
   const panel=document.getElementById('calendarPanel');
   if(panel.classList.contains('asOverlay'))toggleDateCalendar(false);
   document.getElementById('quickBackdrop').classList.add('hide');
@@ -248,8 +255,29 @@ function openQuickAdd(){
   quickPresetPairs.forEach((p,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=p.name+' / '+(p.plate||'車両未登録');sel.appendChild(o)});
   document.getElementById('quickName').value='';document.getElementById('quickPlate').value='';
   document.getElementById('quickBackdrop').classList.remove('hide');document.getElementById('quickSheet').classList.remove('hide');
-  requestAnimationFrame(()=>document.getElementById('quickName').focus());
+  requestAnimationFrame(()=>{adjustQuickSheetForKeyboard();document.getElementById('quickName').focus()});
 }
+// Fit the quick-add popup into the actual visible area when iPad software keyboard opens.
+function adjustQuickSheetForKeyboard(){
+ const vv=window.visualViewport, sheet=document.getElementById('quickSheet');
+ if(!sheet||!vv)return;
+ const keyboardVisible=(window.innerHeight-vv.height)>120;
+ sheet.classList.toggle('keyboardVisible',keyboardVisible);
+ sheet.style.setProperty('--visible-top',Math.max(0,vv.offsetTop)+'px');
+ sheet.style.setProperty('--visible-height',Math.max(200,vv.height)+'px');
+ if(keyboardVisible&&sheet.contains(document.activeElement)){
+   const field=document.activeElement;
+   requestAnimationFrame(()=>field.scrollIntoView({block:'nearest',behavior:'instant'}));
+ }
+}
+if(window.visualViewport){
+ window.visualViewport.addEventListener('resize',adjustQuickSheetForKeyboard);
+ window.visualViewport.addEventListener('scroll',adjustQuickSheetForKeyboard);
+}
+document.getElementById('quickSheet').addEventListener('focusin',()=>{
+ setTimeout(adjustQuickSheetForKeyboard,100);
+ setTimeout(adjustQuickSheetForKeyboard,350);
+});
 function focusPlate(which){
  const dest=which==='quick' ? document.getElementById('quickPlate')
     : document.querySelector('#persons .person:nth-child('+(Number(which)+1)+') input[data-f="plate"]');
@@ -361,39 +389,45 @@ function daysForMonth(){let m=document.getElementById('month').value;return Obje
  .originalLike .recordGrid tbody td[rowspan="3"]{vertical-align:middle;line-height:1.2;overflow-wrap:anywhere}
  .originalLike .recordGrid tbody .blank td{height:17px!important}
 
- /* Ver.24: source-style hierarchy: thick outer perimeter and each driver's separator,
-    thin internal column lines and the three identity sub-rows. Avoid the Ver.23 !important
-    blanket rule that made every single cell heavy. */
+ /* Ver.25: deliberate ruled-form hierarchy. Separate borders prevent adjacent
+    cells from collapsing thin/strong edges differently in WebKit PDF printing.
+    Each cell draws its own right/bottom thin rule. Only the outer perimeter and
+    the start of each driver group are strong, regardless of rowspans. */
  .originalLike .recordGrid{
-   border:2.25px solid #000!important;
-   border-collapse:collapse!important;
+   border:2px solid #111!important;
+   border-collapse:separate!important;
+   border-spacing:0!important;
  }
  .originalLike .recordGrid th,.originalLike .recordGrid td,
  .originalLike .recordGrid thead th,.originalLike .recordGrid tbody td{
-   border:0.7px solid #000!important;
+   border:0!important;
+   border-right:.65px solid #111!important;
+   border-bottom:.65px solid #111!important;
  }
- /* The entire table outline, including both side edges, must remain bold. */
- .originalLike .recordGrid tr > :first-child{border-left:2.25px solid #000!important}
- .originalLike .recordGrid thead tr > :last-child,.originalLike .recordGrid tbody tr.personFirst > td:last-child{border-right:2.25px solid #000!important}
- .originalLike .recordGrid thead tr:first-child > th{border-top:2.25px solid #000!important}
- .originalLike .recordGrid thead tr:last-child > th{border-bottom:1px solid #000!important}
- /* Each person's first line begins a bold separator. For rowspan cells it doubles as
-    the previous person's bottom edge; this prevents disconnected thin fragments. */
+ .originalLike .recordGrid thead tr > :last-child,
+ .originalLike .recordGrid tbody tr.personFirst > td:last-child{border-right:0!important}
+ .originalLike .recordGrid thead tr:first-child > th{border-top:0!important}
+ .originalLike .recordGrid thead tr:last-child > th{border-bottom:.65px solid #111!important}
+ /* Thick horizontal line across the full width ABOVE each individual driver. */
  .originalLike .recordGrid tbody tr.personFirst > td{
-   border-top:2px solid #000!important;
+   border-top:2px solid #111!important;
  }
+ /* Do not draw a heavy line between the three name/plate subrows. */
+ .originalLike .recordGrid tbody tr.personMiddle > td,
  .originalLike .recordGrid tbody tr.personLast > td{
-   border-bottom:2px solid #000!important;
+   border-top:0!important;
+   border-bottom:.65px solid #111!important;
  }
+ /* End of each driver: thick edge across cells that span all three rows.
+    The leftmost identity cell receives only thin internal subrow rules. */
  .originalLike .recordGrid tbody tr.personFirst > td[rowspan="3"]{
-   border-bottom:2px solid #000!important;
+   border-bottom:0!important;
  }
- .originalLike .recordGrid tbody tr:last-child > td{
-   border-bottom:2.25px solid #000!important;
- }
- /* Management signature panel: outer edge heavy, internal dividers fine. */
- .originalLike .manager{border:2px solid #000!important}
- .originalLike .manager div{border:0!important;border-left:0.7px solid #000!important}
+ /* The preceding driver's bottom is the next driver's top, by design. */
+ .originalLike .recordGrid tbody tr:last-child > td{border-bottom:0!important}
+ /* Signature panel: heavyweight outside, fine internal split. */
+ .originalLike .manager{border:2px solid #111!important}
+ .originalLike .manager div{border:0!important;border-left:.65px solid #111!important}
  .originalLike .manager div:first-child{border-left:0!important}
  @media print{.originalLike{break-inside:avoid;page-break-inside:avoid}.originalLike .recordGrid thead{display:table-header-group}.originalLike .chosenCircle{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
  </style>
